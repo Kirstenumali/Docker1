@@ -1,0 +1,12 @@
+replicaCount: 1
+image:
+  repository: nishant277/getting-started
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  name: bb-entrypoint
+  type: NodePort
+  port: 3000
+  targetPort: 3000
+  nodePort: 30001

@@ -1,0 +1,4 @@
+apiVersion: v2
+name: bb-chart
+description: A Helm chart for bb-demo deployment
+version: 0.1.0
